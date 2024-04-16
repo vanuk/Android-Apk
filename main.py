@@ -2,28 +2,16 @@ from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.screenmanager import ScreenManager, Screen
-from kivy.properties import StringProperty
 from kivy.uix.button import Button
 from kivy.uix.textinput import TextInput
 import mysql.connector
 from kivy.uix.label import Label
-from kivy.uix.filechooser import FileChooserIconView
-from kivy.uix.filechooser import FileChooserListView
-from kivy.uix.popup import Popup
-import subprocess
 import tkinter as tk
 from tkinter import filedialog
 import io
-from PIL import Image
 import fitz  # PyMuPDF
-from kivy.uix.popup import Popup
-from kivymd.uix.filemanager import MDFileManager
-from kivy.lang import Builder
-from kivy.uix.scrollview import ScrollView
-import PyPDF2
 from PyPDF2 import PdfReader
 from kivy.uix.scrollview import ScrollView
-from kivy.uix.textinput import TextInput
 from kivy.core.window import Window
 
 # З'єднання з базою даних
